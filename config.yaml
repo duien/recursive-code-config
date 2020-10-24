@@ -38,29 +38,29 @@ Fonts:
 
   Regular:
     MONO: 1
-    CASL: 0
-    wght: 425
+    CASL: 0.5
+    wght: 350
     slnt: 0
     CRSV: 0
 
   Italic:
     MONO: 1
     CASL: 1
-    wght: 425
+    wght: 350
     slnt: -10
-    CRSV: 0
+    CRSV: 1
 
   Bold:
     MONO: 1
-    CASL: 0
-    wght: 750
+    CASL: 0.5
+    wght: 575
     slnt: 0
     CRSV: 0
 
   Bold Italic:
     MONO: 1
     CASL: 1
-    wght: 750
+    wght: 575
     slnt: -10
     CRSV: 1
 
@@ -88,12 +88,24 @@ Code Ligatures: True
 # ss10 # dotted 0
 # ss11 # simplified 1
 
+# 07 - simplified italic diagonals
+# 08 - serifless L and Z
+# 09 - simplified 6 and 9
+# 10 - dotted 0
+# 11 - simplified 1
+# 12 - simplified @
+
 # (Keep the hyphen before each list item)
 Features:
 - ss02 # single-story g
 - ss03 # simplified f
+- ss04 # simplified i
 - ss05 # simplified l
-- ss07 # serifless L and Z
+- ss06 # simplified r
+# - ss07 # serifless L and Z
+# - ss08 # simplified @ (maybe)
 - ss09 # simplified 6 and 9
+- ss10 # dotted 0
+- ss12 # simplified @ (actually)
 
 # That’s it! See README for next steps.
