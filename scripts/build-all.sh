@@ -4,8 +4,17 @@
 
 set -e
 
-version=1.064
+if [ -z "$1" ];then
+    echo "No argument supplied – font path required"
+    exit 1
+fi
+
+fontPath=$1
+
+version=$(font-v report $fontPath | tail -1)
 release=ArrowType-RecMonoCode-v$version
+
+echo $release
 
 rm -rf ./fonts
 
